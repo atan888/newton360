@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NbAuthModule, NbDummyAuthProvider } from '@nebular/auth';
 
 import { throwIfAlreadyLoaded } from './module-import-guard';
-import { DataModule } from './data/data.module';
+import { DataModule } from './model/data.module';
 import { AnalyticsService } from './utils/analytics.service';
 
 const NB_CORE_PROVIDERS = [

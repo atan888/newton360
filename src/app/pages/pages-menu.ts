@@ -17,21 +17,21 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Evaluation Coverage',
-        link: '/pages/charts/chartjs',
+        link: '/pages/reports/evalcoverage',
 
       }, {
         title: 'Evaluation Scores',
-        link: '/pages/reports/siteactivity',
+        link: '/pages/reports/evalscores',
       }, {
         title: 'Evaluation Consent',
-        link: '/pages/form/form-inputs',
+        link: '/pages/reports/evalconsent',
       }, {
         title: 'Feedback %',
-        link: '/pages/form/form-inputs',
+        link: '/pages/reports/evalfeedback',
       },
       {
         title: 'Feedback Scores',
-        link: '/pages/form/form-inputs',
+        link: '/pages/reports/evalfeedbackscores',
       },
     ],
   },
@@ -41,11 +41,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Supervisor Evaluation',
-        link: '/pages/form/form-inputs',
+        link: '/pages/question-management/supevaluation',
       },
       {
         title: 'Employee Response',
-        link: '/pages/form/form-inputs',
+        link: '/pages/question-management/empevaluation',
       },
     ],
   },
@@ -55,19 +55,19 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Mobile Management',
-        link: '/pages/form/form-inputs',
+        link: '/pages/site-management/mobile',
       },
       {
         title: 'User Management',
-        link: '/pages/form/form-inputs',
+        link: '/pages/site-management/users',
       },
       {
         title: 'User Preferences',
-        link: '/pages/form/form-inputs',
+        link: '/pages/site-management/userpref',
       },
       {
         title: 'System Configuration',
-        link: '/pages/form/form-inputs',
+        link: '/pages/site-management/sysconfig',
       },
     ],
   },

@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 import { NbMenuService, NbSidebarService } from '@nebular/theme';
-import { UserService } from '../../../@core/data/users.service';
+import { UserService } from '../../../@core/model/users.service';
 import { AnalyticsService } from '../../../@core/utils/analytics.service';
 
 @Component({
@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.userService.getUsers()
-      .subscribe((users: any) => this.user = users.Tony);
+      .subscribe((users: any) => this.user = users.Charlie);
   }
 
   toggleSidebar(): boolean {
