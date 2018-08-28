@@ -227,11 +227,9 @@ export class ReportService {
     getActivityReport() {
         let url = this.baseURL + "/active-listing-report?key=4760dbb1c7c64595cfb0ca913bc624b02676cf889c3d91aadf43bc7dd4a663f8";
         let opt: RequestOptions;
-        let myHeaders: Headers = new Headers;
+        let myHeaders: Headers = new Headers();
         myHeaders.append('Accept', 'application/json');
-        opt = new RequestOptions({
-        headers: myHeaders
-        });
+        opt = new RequestOptions({headers: myHeaders});
 
         return this.http.get(url,opt)
         // ...and calling .json() on the response to return data
